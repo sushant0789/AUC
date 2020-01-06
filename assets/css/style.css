@@ -78,14 +78,11 @@ ul{margin: 0;padding: 0}
 .mobile-div a{color:#222;font-family: 'Avenir Next LT Pro Demi';}
 .menu-right-div{float:right;max-width:440px;display:flex}
 .navbar-collapse{position:absolute;top:90px;right:0;background-color:#fff;padding:10px 20px 30px;z-index: 1}
-.transform-div{display:inline-block;float:left;max-width:380px}
-.transform-div img{max-width:180px;width:100%;float:left;width:50%}
-.transform-div h3{float:left;width:50%;padding:15px 0;margin:0;}
 
 .container{max-width: 1170px}
-.banner{background: url(../images/banner.jpg) center no-repeat;background-size: contain;width: 100%;color: #fff}
+.banner{background: url(../images/banner.jpg) top center no-repeat;background-size: contain;width: 100%;color: #fff}
 .border-left2{border-left: 4px solid #fff;padding: 3px 10px 10px 20px}
-.banner-caption{border-radius: 5px;background-color: rgba(0,0,0,.7);padding: 20px;margin: 375px 0 175px;width: 95%}
+.banner-caption{border-radius: 5px;background-color: rgba(0,0,0,.7);padding: 20px;margin: 225px 0 175px;width: 95%}
 .banner-caption h1{text-transform: uppercase;font-size: 58px;margin: 0;padding: 0 0 15px;font-family: 'AvenirNextLTPro-Bold';}
 .banner-caption h4{font-size: 24px;font-weight: 500;font-family: 'Avenir Next LT Pro';line-height: 30px}
 
@@ -106,7 +103,7 @@ ul{margin: 0;padding: 0}
     border-right: solid 15px transparent;
 }
 .form-h3{font-size:21px;font-family: 'AvenirNextLTPro-Bold';}
-.get-started{background-color:#e9513c;color:#fff;font-size:16px;display:block;padding:15px;text-align:center;text-transform:uppercase;font-family: 'AvenirNextLTPro-Bold';width: 100%;border:none;cursor: pointer;}
+.get-started{background-color:#e9513c;color:#fff;font-size:16px;display:block;padding:15px;text-align:center;text-transform:uppercase;font-family: 'AvenirNextLTPro-Bold';}
 .form-wrap{background-color:#fff;padding-bottom:20px}
 .form-wrap fieldset{padding:10px 15px}
 .form-wrap fieldset input, .form-wrap fieldset textarea{border-radius:0}
@@ -122,10 +119,9 @@ ul{margin: 0;padding: 0}
 
 .program-admission{padding: 70px 0;background-color: #f8f8f8}
 .program-p{text-align: center;margin: auto;width: 85%;padding-bottom: 30px}
-.box-shadow-box{padding: 15px;background-color: #fff;min-height: 405px;-moz-box-shadow:    1px 1px 10px 1px #ccc;
+.box-shadow-box{padding: 15px;background-color: #fff;min-height: 355px;-moz-box-shadow:    1px 1px 10px 1px #ccc;
   	-webkit-box-shadow: 1px 1px 10px 1px #ccc;
-  	box-shadow:         1px 1px 10px 1px #ccc;margin-bottom:30px}
-.box-shadow-box a{color:#212529;text-decoration:underline}
+  	box-shadow:         1px 1px 10px 1px #ccc;}
 .box-shadow-box h5{font-size: 16px;padding: 0;margin-top: 0}
 .box-shadow-box ul{margin: 0;padding: 10px 0 0;}
 .box-shadow-box ul li{list-style: none;position: relative;padding: 0 0 15px 20px;font-size: 15px}
@@ -136,8 +132,7 @@ ul{margin: 0;padding: 0}
 .nav.nav-tabs.nav-fill a{background: url(../images/program-entry-1.png) 20px center no-repeat #fff;color: #1f5fac;font-size: 14px;border: none;padding: 10px 20px 10px 80px;display: inline-block;width: 49.4%;border-radius: 5px 0 0 5px;text-align: left;}
 .nav.nav-tabs.nav-fill a:last-child{border-radius: 0 5px 5px 0}
 .nav.nav-tabs.nav-fill a.active{background: url(../images/program-entry-2.png) 20px center no-repeat #1f5fac;color: #fff;}
-#nav-profile .col-lg-6, #nav-home .col-lg-4{float: left;}
-.prog-over-ul li{display:list-item;list-style:none}
+#nav-profile .col-lg-4{float: left;}
 
 .why-choose-auc{padding: 70px 0;background: url(../images/why-choose-auc.jpg) center center no-repeat;width: 100%;background-size: cover;color: #fff}
 .why-choose-auc-ul li{padding-left:25px;position:relative;list-style: none}
@@ -202,11 +197,8 @@ footer{padding: 60px 0 0;background-color: #1f5fac;margin: 70px 0 0}
 .navigation-ul li{display: list-item;list-style:none;padding-bottom:5px}
 .navigation-ul li a{color:#fff}
 .footer-p{color:#fff;margin-bottom:10px}
-.footer-p a{color:#fff}
 .copyright-div{padding:15px 0;border-top:1px solid #4679b7;margin:25px 0 0}
 .copyright-div p{color:#fff;text-align:center;margin:0}
-
-.thankyou{padding:25px;color:#222}
 
 @media (min-width:768px) and (max-width: 1120px) {
 .banner-caption{margin: 180px 0 auto}
@@ -214,7 +206,7 @@ footer{padding: 60px 0 0;background-color: #1f5fac;margin: 70px 0 0}
 .banner-caption h4{font-size: 21px;line-height: 27px}
 footer .footer-logo{width: 100%}
 .social-ul li{padding-right: 2px}
-.img-responsive{max-width: 100%;margin: auto;display: table;}
+.img-responsive{max-width: 100%}
 .mo-hide{display: none}
 .banner{background-size: cover;}
 .carousel.slide{padding-bottom: 30%}
@@ -222,11 +214,6 @@ footer .footer-logo{width: 100%}
 .overview-ul li{width: 47%;margin-bottom: 3%}
 .ranked-div h4{width: 35%}
 .ranked-div p{width: 65%}
-#nav-home .box-shadow-box{min-height:635px}
-}
-
-@media (min-width:581px) and (max-width: 768px) {
-.carousel.slide{padding: 0 15px 27% 15px}
 }
 
 @media (min-width:540px) and (max-width: 580px) {
@@ -254,11 +241,10 @@ footer .footer-logo{width: 100%}
 }
 
 @media (max-width:767px) {
-.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{width: 100%;flex: 0 0 100%;max-width: 100%}
 .mo-hide{display:none}
 p{padding-bottom:0}
 .navbar-brand img{max-height:55px}
-.banner{background-size:cover !important;padding:0 !important;background:url(../images/banner2.jpg) top center no-repeat}
+.banner{background-size:cover;padding:0 !important}
 .banner-caption{margin:20px 0;width:100%}
 .border-left2{border-left:none;border-top:4px solid #fff;padding:10px 0 0 0}
 .banner-caption h1{font-size:26px;text-align:center}
@@ -274,13 +260,13 @@ section{padding:40px 0 !important}
 .overview-ul li{width:47%;vertical-align:top;padding:10px 10px 20px 10px;margin:3% 2% auto auto}
 .overview-ul li h5{padding-bottom:5px;font-size:13px}
 .overview-ul li p{padding:0 !important}
-.img-responsive{max-width:100%;margin: auto;display: table;}
+.img-responsive{max-width:100%}
 .program-overview .col-lg-6 p{text-align:center;padding:20px 0 0;margin-bottom:0}
-.nav.nav-tabs.nav-fill{margin:auto;max-width: 100%}
-.nav.nav-tabs.nav-fill a{width:50%;float:left;padding:10px 10px 10px 60px;background-position:10px center !important;font-size:12px;height: 100%}
+.nav.nav-tabs.nav-fill{margin:0 13px}
+.nav.nav-tabs.nav-fill a{width:50%;float:left;padding:10px 10px 10px 60px;background-position:10px center !important;font-size:12px}
 .program-p{width:100%}
 #nav-profile .col-lg-4{padding-left:0 !important;padding-right:0 !important}
-.box-shadow-box{min-height:inherit}
+.box-shadow-box{min-height:inherit;margin-top:20px}
 .why-choose-auc .col-lg-5 iframe{height:275px}
 .ranked-div h4, .ranked-div p{width:100%}
 .ranked-div{width:100%;padding:15px}
@@ -296,7 +282,7 @@ section{padding:40px 0 !important}
 .carousel-indicators li img{width:40px;height:40px}
 .carousel-indicators li.active img{width:80px;height:80px;margin-bottom:12px}
 .student-resource .col-lg-3{width:50%}
-.international-student-box{height:240px;margin: auto auto 15px;max-width: 270px;}
+.international-student-box{height:auto}
 .student-resource .col-lg-3.one, .student-resource .col-lg-3.three{padding-right:5px}
 .student-resource .col-lg-3.two, .student-resource .col-lg-3.four{padding-left:5px}
 .international-student-box div{padding:100px 0 0}
@@ -309,10 +295,4 @@ footer{padding:40px 0 0;text-align:center;margin-top:20px}
 .navigation-ul li{display:inline-block;margin-right:3px;}
 .navigation-ul li a{border-right:2px solid #fff;padding-right:7px;}
 .navigation-ul li:last-child a{border:none;padding:0;margin:0}
-.transform-div h3{font-size:18px}
-.navbar-light .navbar-toggler{position:absolute;top:15px;right:15px}
-.navbar-collapse{top:60px}
-.transform-div img{max-width:120px}
-.prog-over-ul li{padding:15px 0 0}
-.prog-over-ul li h6{margin:0}
 }
