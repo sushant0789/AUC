@@ -4,60 +4,52 @@
 }
 @font-face {
   font-family: "Avenir Next LT Pro";
-  src: url("fonts/AvenirNextLTPro-Medium.eot");
-  src: url("fonts/AvenirNextLTPro-Medium.eot?#iefix")
-      format("embedded-opentype"),
-    url("fonts/AvenirNextLTPro-Medium.woff") format("woff"),
-    url("fonts/AvenirNextLTPro-Medium.ttf") format("truetype"),
-    url("fonts/AvenirNextLTPro-Medium.svg#AvenirNextLTPro-Medium") format("svg");
+  src: url(fonts/AvenirNextLTPro-Medium.eot);
+  src: url(fonts/AvenirNextLTPro-Medium.eot?#iefix) format("embedded-opentype"),
+    url(fonts/AvenirNextLTPro-Medium.woff) format("woff"),
+    url(fonts/AvenirNextLTPro-Medium.ttf) format("truetype"),
+    url(fonts/AvenirNextLTPro-Medium.svg#AvenirNextLTPro-Medium) format("svg");
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Avenir Next LT Pro";
-  src: url("fonts/AvenirNextLTPro-Italic.eot");
-  src: url("fonts/AvenirNextLTPro-Italic.eot?#iefix")
-      format("embedded-opentype"),
-    url("fonts/AvenirNextLTPro-Italic.woff") format("woff"),
-    url("fonts/AvenirNextLTPro-Italic.ttf") format("truetype"),
-    url("fonts/AvenirNextLTPro-Italic.svg#AvenirNextLTPro-Italic") format("svg");
-  font-weight: normal;
+  src: url(fonts/AvenirNextLTPro-Italic.eot);
+  src: url(fonts/AvenirNextLTPro-Italic.eot?#iefix) format("embedded-opentype"),
+    url(fonts/AvenirNextLTPro-Italic.woff) format("woff"),
+    url(fonts/AvenirNextLTPro-Italic.ttf) format("truetype"),
+    url(fonts/AvenirNextLTPro-Italic.svg#AvenirNextLTPro-Italic) format("svg");
+  font-weight: 400;
   font-style: italic;
 }
-
 @font-face {
-  font-family: "AvenirNextLTPro-Bold";
-  src: url("fonts/AvenirNextLTPro-Bold.eot?#iefix") format("embedded-opentype"),
-    url("fonts/AvenirNextLTPro-Bold.otf") format("opentype"),
-    url("fonts/AvenirNextLTPro-Bold.woff") format("woff"),
-    url("fonts/AvenirNextLTPro-Bold.ttf") format("truetype"),
-    url("fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold") format("svg");
-  font-weight: normal;
+  font-family: AvenirNextLTPro-Bold;
+  src: url(fonts/AvenirNextLTPro-Bold.eot?#iefix) format("embedded-opentype"),
+    url(fonts/AvenirNextLTPro-Bold.otf) format("opentype"),
+    url(fonts/AvenirNextLTPro-Bold.woff) format("woff"),
+    url(fonts/AvenirNextLTPro-Bold.ttf) format("truetype"),
+    url(fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold) format("svg");
+  font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Avenir Next LT Pro Demi";
-  src: url("fonts/AvenirNextLTPro-Demi.eot");
-  src: url("fonts/AvenirNextLTPro-Demi.eot?#iefix") format("embedded-opentype"),
-    url("fonts/AvenirNextLTPro-Demi.woff") format("woff"),
-    url("fonts/AvenirNextLTPro-Demi.ttf") format("truetype"),
-    url("fonts/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi") format("svg");
-  font-weight: normal;
+  src: url(fonts/AvenirNextLTPro-Demi.eot);
+  src: url(fonts/AvenirNextLTPro-Demi.eot?#iefix) format("embedded-opentype"),
+    url(fonts/AvenirNextLTPro-Demi.woff) format("woff"),
+    url(fonts/AvenirNextLTPro-Demi.ttf) format("truetype"),
+    url(fonts/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi) format("svg");
+  font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Avenir Next LT Pro";
-  src: url("fonts/AvenirNextLTPro-Regular.eot");
-  src: url("fonts/AvenirNextLTPro-Regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("fonts/AvenirNextLTPro-Regular.woff") format("woff"),
-    url("fonts/AvenirNextLTPro-Regular.ttf") format("truetype"),
-    url("fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular")
-      format("svg");
-  font-weight: normal;
+  src: url(fonts/AvenirNextLTPro-Regular.eot);
+  src: url(fonts/AvenirNextLTPro-Regular.eot?#iefix) format("embedded-opentype"),
+    url(fonts/AvenirNextLTPro-Regular.woff) format("woff"),
+    url(fonts/AvenirNextLTPro-Regular.ttf) format("truetype"),
+    url(fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular) format("svg");
+  font-weight: 400;
   font-style: normal;
 }
 body {
@@ -73,7 +65,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-
 .menu_area {
   width: 100%;
 }
@@ -86,7 +77,7 @@ ul {
   background-color: #e9513c;
   font-size: 16px;
   text-transform: uppercase;
-  font-family: "AvenirNextLTPro-Bold";
+  font-family: AvenirNextLTPro-Bold;
   padding: 10px 20px;
   border-radius: 5px;
   margin: 0 20px 0;
@@ -132,7 +123,6 @@ ul {
   padding: 15px 0;
   margin: 0;
 }
-
 .container {
   max-width: 1170px;
 }
@@ -158,7 +148,7 @@ ul {
   font-size: 58px;
   margin: 0;
   padding: 0 0 15px;
-  font-family: "AvenirNextLTPro-Bold";
+  font-family: AvenirNextLTPro-Bold;
 }
 .banner-caption h4 {
   font-size: 24px;
@@ -166,7 +156,6 @@ ul {
   font-family: "Avenir Next LT Pro";
   line-height: 30px;
 }
-
 .form-wrap {
   -moz-box-shadow: 1px 1px 10px 1px #666;
   -webkit-box-shadow: 1px 1px 10px 1px #666;
@@ -195,7 +184,7 @@ ul {
 }
 .form-h3 {
   font-size: 21px;
-  font-family: "AvenirNextLTPro-Bold";
+  font-family: AvenirNextLTPro-Bold;
 }
 .get-started {
   background-color: #e9513c;
@@ -205,7 +194,7 @@ ul {
   padding: 15px;
   text-align: center;
   text-transform: uppercase;
-  font-family: "AvenirNextLTPro-Bold";
+  font-family: AvenirNextLTPro-Bold;
   width: 100%;
   border: none;
   cursor: pointer;
@@ -221,7 +210,6 @@ ul {
 .form-wrap fieldset textarea {
   border-radius: 0;
 }
-
 .program-overview {
   padding: 70px 0;
 }
@@ -264,7 +252,7 @@ ul {
 .overview-ul li h5 {
   color: #e9513c;
   font-size: 15px;
-  font-family: "AvenirNextLTPro-Bold";
+  font-family: AvenirNextLTPro-Bold;
   text-transform: uppercase;
   border-bottom: 2px solid #e9513c;
   padding-bottom: 10px;
@@ -277,7 +265,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-
 .program-admission {
   padding: 70px 0;
   background-color: #f8f8f8;
@@ -348,15 +335,14 @@ ul {
   background: url(../images/program-entry-2.png) 20px center no-repeat #1f5fac;
   color: #fff;
 }
-#nav-profile .col-lg-6,
-#nav-home .col-lg-4 {
+#nav-home .col-lg-4,
+#nav-profile .col-lg-6 {
   float: left;
 }
 .prog-over-ul li {
   display: list-item;
   list-style: none;
 }
-
 .why-choose-auc {
   padding: 70px 0;
   background: url(../images/why-choose-auc.jpg) center center no-repeat;
@@ -411,7 +397,6 @@ ul {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-
 .frequently-questions {
   padding: 70px 0;
   background-color: #f8f8f8;
@@ -465,11 +450,9 @@ ul {
   margin: auto;
   width: 80%;
 }
-
 .student-testimonials {
   padding: 70px 0;
 }
-
 .carousel.slide {
   max-width: 80%;
   margin: auto;
@@ -528,26 +511,24 @@ ul {
   position: absolute;
   content: "";
   z-index: 1;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,000000+49,000000+100&0+0,0+49,0.69+100 */
   background: -moz-linear-gradient(
     top,
-    rgba(30, 87, 153, 0) 0%,
+    rgba(30, 87, 153, 0) 0,
     rgba(0, 0, 0, 0) 49%,
     rgba(0, 0, 0, 0.69) 100%
-  ); /* FF3.6-15 */
+  );
   background: -webkit-linear-gradient(
     top,
-    rgba(30, 87, 153, 0) 0%,
+    rgba(30, 87, 153, 0) 0,
     rgba(0, 0, 0, 0) 49%,
     rgba(0, 0, 0, 0.69) 100%
-  ); /* Chrome10-25,Safari5.1-6 */
+  );
   background: linear-gradient(
     to bottom,
-    rgba(30, 87, 153, 0) 0%,
+    rgba(30, 87, 153, 0) 0,
     rgba(0, 0, 0, 0) 49%,
     rgba(0, 0, 0, 0.69) 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#b0000000',GradientType=0 ); /* IE6-9 */
+  );
   left: 0;
   top: 0;
   bottom: 0;
@@ -563,7 +544,7 @@ ul {
   text-transform: uppercase;
   font-size: 18px;
   padding: 15px 0;
-  font-family: "AvenirNextLTPro-Bold";
+  font-family: AvenirNextLTPro-Bold;
 }
 .international-student-box.one {
   background: url(../images/international-student1.png) center center no-repeat
@@ -581,7 +562,6 @@ ul {
   background: url(../images/international-student4.png) center center no-repeat
     #fff;
 }
-
 footer {
   padding: 60px 0 0;
   background-color: #1f5fac;
@@ -595,8 +575,6 @@ footer {
 }
 .footer-ul li a {
   color: #fff;
-}
-.social-ul {
 }
 .social-ul li {
   display: inline-block;
@@ -617,13 +595,11 @@ footer {
 .footer-h4 {
   font-size: 18px;
   text-transform: uppercase;
-  font-family: "AvenirNextLTPro-Bold";
+  font-family: AvenirNextLTPro-Bold;
   color: #fff;
   padding: 0 0 25px;
   margin: 0 0 25px;
   border-bottom: 1px solid #4679b7;
-}
-.navigation-ul {
 }
 .navigation-ul li {
   display: list-item;
@@ -650,12 +626,10 @@ footer {
   text-align: center;
   margin: 0;
 }
-
 .thankyou {
   padding: 25px;
   color: #222;
 }
-
 @media (min-width: 768px) and (max-width: 1120px) {
   .banner-caption {
     margin: 180px 0 auto;
@@ -704,51 +678,46 @@ footer {
     min-height: 635px;
   }
 }
-
 @media (min-width: 581px) and (max-width: 768px) {
   .carousel.slide {
     padding: 0 15px 27% 15px;
   }
 }
-
 @media (min-width: 540px) and (max-width: 580px) {
   .carousel.slide {
     padding: 0 15px 35% 15px;
   }
 }
-
 @media (min-width: 480px) and (max-width: 540px) {
   .carousel.slide {
     padding: 0 15px 40% 15px;
   }
 }
-
 @media (min-width: 420px) and (max-width: 480px) {
   .carousel.slide {
     padding: 0 15px 45% 15px;
   }
 }
-
 @media (min-width: 380px) and (max-width: 420px) {
   .carousel.slide {
     padding: 0 15px 50% 15px;
   }
 }
-
 @media (min-width: 340px) and (max-width: 380px) {
   .carousel.slide {
     padding: 0 15px 60% 15px;
   }
 }
-
 @media (min-width: 320px) and (max-width: 340px) {
   .carousel.slide {
     padding: 0 15px 70% 15px;
   }
 }
-
 @media (max-width: 767px) {
   .col-sm-1,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
   .col-sm-2,
   .col-sm-3,
   .col-sm-4,
@@ -756,10 +725,7 @@ footer {
   .col-sm-6,
   .col-sm-7,
   .col-sm-8,
-  .col-sm-9,
-  .col-sm-10,
-  .col-sm-11,
-  .col-sm-12 {
+  .col-sm-9 {
     width: 100%;
     flex: 0 0 100%;
     max-width: 100%;
@@ -905,8 +871,8 @@ footer {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .card-link::before,
-  .card-link.collapsed::before {
+  .card-link.collapsed::before,
+  .card-link::before {
     margin: 18px 0 0 15px;
   }
   .card-header {
@@ -938,8 +904,8 @@ footer {
   .student-resource .col-lg-3.three {
     padding-right: 5px;
   }
-  .student-resource .col-lg-3.two,
-  .student-resource .col-lg-3.four {
+  .student-resource .col-lg-3.four,
+  .student-resource .col-lg-3.two {
     padding-left: 5px;
   }
   .international-student-box div {
