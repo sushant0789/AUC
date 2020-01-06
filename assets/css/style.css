@@ -106,23 +106,6 @@ ul {
   padding: 10px 20px 30px;
   z-index: 1;
 }
-.transform-div {
-  display: inline-block;
-  float: left;
-  max-width: 380px;
-}
-.transform-div img {
-  max-width: 180px;
-  width: 100%;
-  float: left;
-  width: 50%;
-}
-.transform-div h3 {
-  float: left;
-  width: 50%;
-  padding: 15px 0;
-  margin: 0;
-}
 .container {
   max-width: 1170px;
 }
@@ -339,10 +322,6 @@ ul {
 #nav-profile .col-lg-6 {
   float: left;
 }
-.prog-over-ul li {
-  display: list-item;
-  list-style: none;
-}
 .why-choose-auc {
   padding: 70px 0;
   background: url(../images/why-choose-auc.jpg) center center no-repeat;
@@ -400,55 +379,6 @@ ul {
 .frequently-questions {
   padding: 70px 0;
   background-color: #f8f8f8;
-}
-.card {
-  border: none;
-  border-radius: 5px;
-  background-color: #fff;
-  margin-bottom: 20px;
-  padding-left: 45px;
-  width: 100%;
-  display: inline-block;
-}
-.card-header {
-  background-color: #fff;
-  border: none;
-  padding: 1.25rem;
-}
-.card-link {
-  cursor: pointer;
-  color: #1f5fac;
-  font-size: 18px;
-}
-.card-body {
-  padding-top: 0;
-}
-.card-link {
-  display: block;
-}
-.card-link.collapsed:before {
-  content: "\f055";
-  font: normal normal normal 14px/1 FontAwesome;
-  position: absolute;
-  left: 0;
-  font-size: 21px;
-  top: 0;
-  color: #e9513c;
-  margin: 23px 0 0 25px;
-}
-.card-link:before {
-  content: "\f056";
-  font: normal normal normal 14px/1 FontAwesome;
-  position: absolute;
-  left: 0;
-  font-size: 21px;
-  top: 0;
-  color: #e9513c;
-  margin: 23px 0 0 25px;
-}
-#accordion {
-  margin: auto;
-  width: 80%;
 }
 .student-testimonials {
   padding: 70px 0;
@@ -613,9 +543,6 @@ footer {
   color: #fff;
   margin-bottom: 10px;
 }
-.footer-p a {
-  color: #fff;
-}
 .copyright-div {
   padding: 15px 0;
   border-top: 1px solid #4679b7;
@@ -625,10 +552,6 @@ footer {
   color: #fff;
   text-align: center;
   margin: 0;
-}
-.thankyou {
-  padding: 25px;
-  color: #222;
 }
 @media (min-width: 768px) and (max-width: 1120px) {
   .banner-caption {
@@ -640,9 +563,6 @@ footer {
   .banner-caption h4 {
     font-size: 21px;
     line-height: 27px;
-  }
-  footer .footer-logo {
-    width: 100%;
   }
   .social-ul li {
     padding-right: 2px;
@@ -714,22 +634,6 @@ footer {
   }
 }
 @media (max-width: 767px) {
-  .col-sm-1,
-  .col-sm-10,
-  .col-sm-11,
-  .col-sm-12,
-  .col-sm-2,
-  .col-sm-3,
-  .col-sm-4,
-  .col-sm-5,
-  .col-sm-6,
-  .col-sm-7,
-  .col-sm-8,
-  .col-sm-9 {
-    width: 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
   .mo-hide {
     display: none;
   }
@@ -776,14 +680,6 @@ footer {
     display: flex;
     flex-flow: column;
   }
-  .program-overview .col-lg-5,
-  .why-choose-auc .col-lg-5 {
-    order: 1;
-  }
-  .program-overview .col-lg-6,
-  .why-choose-auc .col-lg-7 {
-    order: 2;
-  }
   .overview-h1 {
     font-size: 28px;
     padding-bottom: 20px;
@@ -809,11 +705,6 @@ footer {
     margin: auto;
     display: table;
   }
-  .program-overview .col-lg-6 p {
-    text-align: center;
-    padding: 20px 0 0;
-    margin-bottom: 0;
-  }
   .nav.nav-tabs.nav-fill {
     margin: auto;
     max-width: 100%;
@@ -829,15 +720,8 @@ footer {
   .program-p {
     width: 100%;
   }
-  #nav-profile .col-lg-4 {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
   .box-shadow-box {
     min-height: inherit;
-  }
-  .why-choose-auc .col-lg-5 iframe {
-    height: 275px;
   }
   .ranked-div h4,
   .ranked-div p {
@@ -857,27 +741,12 @@ footer {
     padding-left: 0;
     text-align: center;
   }
-  #accordion {
-    width: 100%;
-    padding: 0 15px;
-  }
   .carousel.slide {
     width: 100%;
-  }
-  .card {
-    padding-left: 25px;
   }
   .overview-h1 {
     padding-left: 15px;
     padding-right: 15px;
-  }
-  .card-link.collapsed::before,
-  .card-link::before {
-    margin: 18px 0 0 15px;
-  }
-  .card-header {
-    padding-top: 15px;
-    line-height: 21px;
   }
   .carousel-indicators li {
     width: 60px;
@@ -892,21 +761,10 @@ footer {
     height: 80px;
     margin-bottom: 12px;
   }
-  .student-resource .col-lg-3 {
-    width: 50%;
-  }
   .international-student-box {
     height: 240px;
     margin: auto auto 15px;
     max-width: 270px;
-  }
-  .student-resource .col-lg-3.one,
-  .student-resource .col-lg-3.three {
-    padding-right: 5px;
-  }
-  .student-resource .col-lg-3.four,
-  .student-resource .col-lg-3.two {
-    padding-left: 5px;
   }
   .international-student-box div {
     padding: 100px 0 0;
@@ -947,9 +805,6 @@ footer {
     padding: 0;
     margin: 0;
   }
-  .transform-div h3 {
-    font-size: 18px;
-  }
   .navbar-light .navbar-toggler {
     position: absolute;
     top: 15px;
@@ -957,14 +812,5 @@ footer {
   }
   .navbar-collapse {
     top: 60px;
-  }
-  .transform-div img {
-    max-width: 120px;
-  }
-  .prog-over-ul li {
-    padding: 15px 0 0;
-  }
-  .prog-over-ul li h6 {
-    margin: 0;
   }
 }
